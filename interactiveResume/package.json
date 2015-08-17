@@ -1,0 +1,10 @@
+{
+  "name": "interactiveResume",
+  "version": "0.0.0",
+  "description": "interactiveResume",
+  "main": "server.js",
+  "author": {
+    "name": "Louis",
+    "email": ""
+  }
+}
