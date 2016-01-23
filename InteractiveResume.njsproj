@@ -16,6 +16,15 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
+    <Compile Include="InteractiveResume\test\bootstrap.test.js">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </Compile>
+    <Compile Include="InteractiveResume\test\unit\controllers\ResumeController.test.js">
+      <SubType>Code</SubType>
+      <TestFramework>Mocha</TestFramework>
+    </Compile>
+    <Content Include="InteractiveResume\test\mocha.opts" />
     <Content Include="UpgradeLog.htm" />
     <Content Include="InteractiveResume\package.json" />
     <Content Include="InteractiveResume\README.md" />
@@ -97,9 +106,13 @@
     <Folder Include="InteractiveResume\config" />
     <Folder Include="InteractiveResume\config\env" />
     <Folder Include="InteractiveResume\config\locales" />
+    <Folder Include="InteractiveResume\test\" />
     <Folder Include="InteractiveResume\tasks" />
     <Folder Include="InteractiveResume\tasks\config" />
     <Folder Include="InteractiveResume\tasks\register" />
+    <Folder Include="InteractiveResume\test\unit\" />
+    <Folder Include="InteractiveResume\test\unit\controllers\" />
+    <Folder Include="InteractiveResume\test\unit\models\" />
     <Folder Include="InteractiveResume\views" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
