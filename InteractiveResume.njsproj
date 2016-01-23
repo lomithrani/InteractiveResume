@@ -6,7 +6,7 @@
     <ProjectGuid>{6bc5e50f-48df-45c9-be9a-6f9f6a4402c5}</ProjectGuid>
     <ProjectHome />
     <ProjectView>ShowAllFiles</ProjectView>
-    <StartupFile>InteractiveResume\app.js</StartupFile>
+    <StartupFile>app.js</StartupFile>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
@@ -16,104 +16,104 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
-    <Compile Include="InteractiveResume\test\bootstrap.test.js">
+    <Compile Include="test\bootstrap.test.js">
       <SubType>Code</SubType>
       <TestFramework>Mocha</TestFramework>
     </Compile>
-    <Compile Include="InteractiveResume\test\unit\controllers\ResumeController.test.js">
+    <Compile Include="test\unit\controllers\ResumeController.test.js">
       <SubType>Code</SubType>
       <TestFramework>Mocha</TestFramework>
     </Compile>
-    <Content Include="InteractiveResume\test\mocha.opts" />
+    <Content Include="test\mocha.opts" />
     <Content Include="UpgradeLog.htm" />
-    <Content Include="InteractiveResume\package.json" />
-    <Content Include="InteractiveResume\README.md" />
-    <Compile Include="InteractiveResume\app.js" />
-    <Compile Include="InteractiveResume\Gruntfile.js" />
-    <Content Include="InteractiveResume\assets\robots.txt" />
-    <Content Include="InteractiveResume\assets\favicon.ico" />
-    <Compile Include="InteractiveResume\config\blueprints.js" />
-    <Compile Include="InteractiveResume\config\bootstrap.js" />
-    <Compile Include="InteractiveResume\config\connections.js" />
-    <Compile Include="InteractiveResume\config\cors.js" />
-    <Compile Include="InteractiveResume\config\csrf.js" />
-    <Compile Include="InteractiveResume\config\globals.js" />
-    <Compile Include="InteractiveResume\config\http.js" />
-    <Compile Include="InteractiveResume\config\i18n.js" />
-    <Compile Include="InteractiveResume\config\log.js" />
-    <Compile Include="InteractiveResume\config\models.js" />
-    <Compile Include="InteractiveResume\config\policies.js" />
-    <Compile Include="InteractiveResume\config\routes.js" />
-    <Compile Include="InteractiveResume\config\session.js" />
-    <Compile Include="InteractiveResume\config\sockets.js" />
-    <Compile Include="InteractiveResume\config\views.js" />
-    <Content Include="InteractiveResume\tasks\README.md" />
-    <Compile Include="InteractiveResume\tasks\pipeline.js" />
-    <Content Include="InteractiveResume\views\403.ejs" />
-    <Content Include="InteractiveResume\views\404.ejs" />
-    <Content Include="InteractiveResume\views\500.ejs" />
-    <Content Include="InteractiveResume\views\homepage.ejs" />
-    <Content Include="InteractiveResume\views\layout.ejs" />
-    <Compile Include="InteractiveResume\api\policies\sessionAuth.js" />
-    <Compile Include="InteractiveResume\api\responses\badRequest.js" />
-    <Compile Include="InteractiveResume\api\responses\forbidden.js" />
-    <Compile Include="InteractiveResume\api\responses\notFound.js" />
-    <Compile Include="InteractiveResume\api\responses\ok.js" />
-    <Compile Include="InteractiveResume\api\responses\serverError.js" />
-    <Compile Include="InteractiveResume\assets\js\dependencies\sails.io.js" />
-    <Compile Include="InteractiveResume\config\env\development.js" />
-    <Compile Include="InteractiveResume\config\env\production.js" />
-    <Content Include="InteractiveResume\config\locales\de.json" />
-    <Content Include="InteractiveResume\config\locales\en.json" />
-    <Content Include="InteractiveResume\config\locales\es.json" />
-    <Content Include="InteractiveResume\config\locales\fr.json" />
-    <Content Include="InteractiveResume\config\locales\_README.md" />
-    <Compile Include="InteractiveResume\tasks\config\clean.js" />
-    <Compile Include="InteractiveResume\tasks\config\coffee.js" />
-    <Compile Include="InteractiveResume\tasks\config\concat.js" />
-    <Compile Include="InteractiveResume\tasks\config\copy.js" />
-    <Compile Include="InteractiveResume\tasks\config\cssmin.js" />
-    <Compile Include="InteractiveResume\tasks\config\jst.js" />
-    <Compile Include="InteractiveResume\tasks\config\less.js" />
-    <Compile Include="InteractiveResume\tasks\config\sails-linker.js" />
-    <Compile Include="InteractiveResume\tasks\config\sync.js" />
-    <Compile Include="InteractiveResume\tasks\config\uglify.js" />
-    <Compile Include="InteractiveResume\tasks\config\watch.js" />
-    <Compile Include="InteractiveResume\tasks\register\build.js" />
-    <Compile Include="InteractiveResume\tasks\register\buildProd.js" />
-    <Compile Include="InteractiveResume\tasks\register\compileAssets.js" />
-    <Compile Include="InteractiveResume\tasks\register\default.js" />
-    <Compile Include="InteractiveResume\tasks\register\linkAssets.js" />
-    <Compile Include="InteractiveResume\tasks\register\linkAssetsBuild.js" />
-    <Compile Include="InteractiveResume\tasks\register\linkAssetsBuildProd.js" />
-    <Compile Include="InteractiveResume\tasks\register\prod.js" />
-    <Compile Include="InteractiveResume\tasks\register\syncAssets.js" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Compile Include="app.js" />
+    <Compile Include="Gruntfile.js" />
+    <Content Include="assets\robots.txt" />
+    <Content Include="assets\favicon.ico" />
+    <Compile Include="config\blueprints.js" />
+    <Compile Include="config\bootstrap.js" />
+    <Compile Include="config\connections.js" />
+    <Compile Include="config\cors.js" />
+    <Compile Include="config\csrf.js" />
+    <Compile Include="config\globals.js" />
+    <Compile Include="config\http.js" />
+    <Compile Include="config\i18n.js" />
+    <Compile Include="config\log.js" />
+    <Compile Include="config\models.js" />
+    <Compile Include="config\policies.js" />
+    <Compile Include="config\routes.js" />
+    <Compile Include="config\session.js" />
+    <Compile Include="config\sockets.js" />
+    <Compile Include="config\views.js" />
+    <Content Include="tasks\README.md" />
+    <Compile Include="tasks\pipeline.js" />
+    <Content Include="views\403.ejs" />
+    <Content Include="views\404.ejs" />
+    <Content Include="views\500.ejs" />
+    <Content Include="views\homepage.ejs" />
+    <Content Include="views\layout.ejs" />
+    <Compile Include="api\policies\sessionAuth.js" />
+    <Compile Include="api\responses\badRequest.js" />
+    <Compile Include="api\responses\forbidden.js" />
+    <Compile Include="api\responses\notFound.js" />
+    <Compile Include="api\responses\ok.js" />
+    <Compile Include="api\responses\serverError.js" />
+    <Compile Include="assets\js\dependencies\sails.io.js" />
+    <Compile Include="config\env\development.js" />
+    <Compile Include="config\env\production.js" />
+    <Content Include="config\locales\de.json" />
+    <Content Include="config\locales\en.json" />
+    <Content Include="config\locales\es.json" />
+    <Content Include="config\locales\fr.json" />
+    <Content Include="config\locales\_README.md" />
+    <Compile Include="tasks\config\clean.js" />
+    <Compile Include="tasks\config\coffee.js" />
+    <Compile Include="tasks\config\concat.js" />
+    <Compile Include="tasks\config\copy.js" />
+    <Compile Include="tasks\config\cssmin.js" />
+    <Compile Include="tasks\config\jst.js" />
+    <Compile Include="tasks\config\less.js" />
+    <Compile Include="tasks\config\sails-linker.js" />
+    <Compile Include="tasks\config\sync.js" />
+    <Compile Include="tasks\config\uglify.js" />
+    <Compile Include="tasks\config\watch.js" />
+    <Compile Include="tasks\register\build.js" />
+    <Compile Include="tasks\register\buildProd.js" />
+    <Compile Include="tasks\register\compileAssets.js" />
+    <Compile Include="tasks\register\default.js" />
+    <Compile Include="tasks\register\linkAssets.js" />
+    <Compile Include="tasks\register\linkAssetsBuild.js" />
+    <Compile Include="tasks\register\linkAssetsBuildProd.js" />
+    <Compile Include="tasks\register\prod.js" />
+    <Compile Include="tasks\register\syncAssets.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="InteractiveResume" />
-    <Folder Include="InteractiveResume\api" />
-    <Folder Include="InteractiveResume\api\controllers" />
-    <Folder Include="InteractiveResume\api\models" />
-    <Folder Include="InteractiveResume\api\policies" />
-    <Folder Include="InteractiveResume\api\responses" />
-    <Folder Include="InteractiveResume\api\services" />
-    <Folder Include="InteractiveResume\assets" />
-    <Folder Include="InteractiveResume\assets\images" />
-    <Folder Include="InteractiveResume\assets\js" />
-    <Folder Include="InteractiveResume\assets\js\dependencies" />
-    <Folder Include="InteractiveResume\assets\styles" />
-    <Folder Include="InteractiveResume\assets\templates" />
-    <Folder Include="InteractiveResume\config" />
-    <Folder Include="InteractiveResume\config\env" />
-    <Folder Include="InteractiveResume\config\locales" />
-    <Folder Include="InteractiveResume\test\" />
-    <Folder Include="InteractiveResume\tasks" />
-    <Folder Include="InteractiveResume\tasks\config" />
-    <Folder Include="InteractiveResume\tasks\register" />
-    <Folder Include="InteractiveResume\test\unit\" />
-    <Folder Include="InteractiveResume\test\unit\controllers\" />
-    <Folder Include="InteractiveResume\test\unit\models\" />
-    <Folder Include="InteractiveResume\views" />
+    <Folder Include="api\" />
+    <Folder Include="api\controllers\" />
+    <Folder Include="api\models\" />
+    <Folder Include="api\policies\" />
+    <Folder Include="api\responses\" />
+    <Folder Include="api\services\" />
+    <Folder Include="assets\" />
+    <Folder Include="assets\images\" />
+    <Folder Include="assets\js\" />
+    <Folder Include="assets\js\dependencies\" />
+    <Folder Include="assets\styles\" />
+    <Folder Include="assets\templates\" />
+    <Folder Include="config\" />
+    <Folder Include="config\env\" />
+    <Folder Include="config\locales\" />
+    <Folder Include="test\" />
+    <Folder Include="tasks\" />
+    <Folder Include="tasks\config\" />
+    <Folder Include="tasks\register\" />
+    <Folder Include="test\unit\" />
+    <Folder Include="test\unit\controllers\" />
+    <Folder Include="test\unit\models\" />
+    <Folder Include="views\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
