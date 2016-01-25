@@ -89,7 +89,7 @@
     <Compile Include="tasks\register\linkAssetsBuildProd.js" />
     <Compile Include="tasks\register\prod.js" />
     <Compile Include="tasks\register\syncAssets.js" />
-    <Content Include="views\resume\layout.ejs" />
+    <Content Include="views\resume\hello.ejs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="api\" />
