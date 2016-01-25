@@ -1,0 +1,8 @@
+{
+  "name": "interactiveResume",
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.5",
+    "three-js": "^1.2.2"
+  }
+}
