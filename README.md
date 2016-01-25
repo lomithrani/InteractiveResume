@@ -5,7 +5,7 @@
 ##Technologies
 >The backend is build with sailsjs, a framework nodejs, the frontend is using threejs library and websockets
 
-#Methodology
+##Methodology
 >I want to build this project in a professionnal manner. 
 I use a scrum methodology with the tool [Jira](https://www.atlassian.com/software/jira) and smart commits.
 As a testing framework I use [Mochajs](https://mochajs.org/).
